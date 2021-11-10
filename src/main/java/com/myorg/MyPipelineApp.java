@@ -14,7 +14,7 @@ public class MyPipelineApp {
                 .region("us-east-1")
                 .build())
             .build());
-
+             
         app.synth();
     }
 }
